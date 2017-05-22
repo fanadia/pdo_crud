@@ -9,7 +9,7 @@ class Db {
   }
   private function connect(){
     $db_host = "localhost";
-    $db_name = "phprookie_db";$db_user = "root";
+    $db_name = "pdo_db";$db_user = "root";
     $db_pass = "";
     try {
     $this->database = new PDO("mysql:host=$db_host;
